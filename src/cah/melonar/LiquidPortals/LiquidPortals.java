@@ -18,7 +18,7 @@ public class LiquidPortals extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		PluginManager pm = getServer().getPluginManager();
-		pm.registerEvents(new LPListener(), this);
+		pm.registerEvents(new LPListener(this), this);
 		PluginDescriptionFile pdfFile = this.getDescription();
 		logger.info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled.");
 	}

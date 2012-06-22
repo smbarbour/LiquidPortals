@@ -1,7 +1,7 @@
 name: LiquidPortals
 main: cah.melonar.LiquidPortals.LiquidPortals
-version: 1.0
+version: 1.1
 description: >
-             Magically forms lava or water under special powered blocks.
+             Magically forms lava or water under special powered blocks or into attached pipes.
 commands:
  
